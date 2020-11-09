@@ -11,7 +11,7 @@ namespace CodingQuestion.Models
         public int NumberOfPrices { get; set; }
         public int HighestDifference { get; set; } = 0;
 
-        public DenominationDataSet(int priceSize, int denominationSize)
+        public DenominationDataSet(int denominationSize, int priceSize)
         {
             NumberOfDenominations = denominationSize;
             NumberOfPrices = priceSize;
